@@ -1,0 +1,28 @@
+#+title: Dice Roller
+#+author: Lilly Kane
+#+PROPERTY: header-args:emacs-lisp :tangle ./dice-roller.el
+
+* Evaluate input
+
+#+begin_src emacs-lisp
+
+  (setq dice-regex "\d*[dD]\d+")
+
+#+end_src
+
+* Generate random values
+
+#+begin_src emacs-lisp
+
+  ;; I don't know how to do this yet.
+
+#+end_src
+
+* Functions
+
+#+begin_src emacs-lisp
+
+  (defun roll-dice (instr)
+    nil)
+
+#+end_src
