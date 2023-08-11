@@ -1,4 +1,4 @@
-(setq dice-regex "\d*[dD]\d+")
+(setq dice-regex "\\([0-9]*\\)[dD]\\([0-9]+\\)")
 
 ;; I don't know how to do this yet.
 

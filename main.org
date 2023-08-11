@@ -6,15 +6,7 @@
 
 #+begin_src emacs-lisp
 
-  (setq dice-regex "\d*[dD]\d+")
-
-#+end_src
-
-* Generate random values
-
-#+begin_src emacs-lisp
-
-  ;; I don't know how to do this yet.
+  (setq dice-regex "\\([0-9]*\\)[dD]\\([0-9]+\\)")
 
 #+end_src
 
