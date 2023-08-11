@@ -14,7 +14,12 @@
 
 #+begin_src emacs-lisp
 
-  (defun roll-dice (instr)
-    nil)
+  (defun roll-dice (input)
+    (interactive "Mdice: ")
+    (save-match-data (if (string-match dice-regex input)
+                         (progn (message "You want to roll %s %s-sided dice."
+                                         (match-string 1 input)
+                                         (match-string 2 input)))
+                       (message "That is not a valid dice string."))))
 
 #+end_src
